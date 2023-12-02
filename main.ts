@@ -33,5 +33,6 @@ let rest = 0
 let d = 0
 let list: boolean[] = []
 let a: boolean[] = []
+bit.comment("elssner/sim-dez-bin")
 bit.comment("Erweiterung laden:")
 bit.comment("calliope-net/bit")
