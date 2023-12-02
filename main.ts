@@ -1,10 +1,5 @@
-let a: boolean[] = []
-let list: boolean[] = []
-let d = 0
-let rest = 0
-let boolean = false
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
-    a = BitArray(12)
+    a = BitArray(31)
     bit.plot25LED(1, a)
 })
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
@@ -33,3 +28,10 @@ function BitArray2 (dezParameter: number) {
     }
     return list
 }
+let boolean = false
+let rest = 0
+let d = 0
+let list: boolean[] = []
+let a: boolean[] = []
+bit.comment("Erweiterung laden:")
+bit.comment("calliope-net/bit")
