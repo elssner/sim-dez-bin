@@ -1,5 +1,6 @@
 {
     "name": "sim-dez-bin",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
